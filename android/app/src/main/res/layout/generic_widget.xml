@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Myfirstwidget.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FFFFFF"
+    android:theme="@style/AppTheme.AppWidgetContainer">
+
+    <TextView
+        android:id="@+id/messageValue"
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/titleMessage"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="0dp"
+        android:text="VALOR"
+        android:textColor="#2B2B2B"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/updatedAtValue"
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/titleUpdatedAt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="0dp"
+        android:text="VALOR"
+        android:textColor="#2B2B2B"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/titleMessage"
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="0dp"
+        android:text="Mensagem"
+        android:textColor="#E91E63"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/titleUpdatedAt"
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/messageValue"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="0dp"
+        android:text="Ultima atualização"
+        android:textColor="#E91E63"
+        android:textStyle="bold" />
+
+</RelativeLayout>
