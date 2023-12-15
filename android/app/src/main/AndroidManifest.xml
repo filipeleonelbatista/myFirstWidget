@@ -27,14 +27,16 @@
         android:theme="@style/AppTheme">
         <receiver
             android:name=".GenericWidget"
-            android:exported="false">
+            android:exported="false"
+            >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
 
             <meta-data
                 android:name="android.appwidget.provider"
-                android:resource="@xml/generic_widget_info" />
+                android:resource="@xml/generic_widget_info"
+                />
         </receiver>
 
         <activity
